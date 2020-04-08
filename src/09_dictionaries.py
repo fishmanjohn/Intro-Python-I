@@ -43,10 +43,11 @@ print(waypoints)
 # waypoints list.
 
 # YOUR CODE HERE
-waypoints.pop(0)
-waypoints.insert(0,{"lat":43, "lon": -130, "name": "not a real place"})
-print(waypoints)
-
+# waypoints.pop(0)
+# waypoints.insert(0,{"lat":43, "lon": -130, "name": "not a real place"})
+# print(waypoints)
+waypoints[0] ["name"] = "not a real place"
+waypoints[0] ["lon"] = -130
 # Write a loop that prints out all the field values for all the waypoints
 # YOUR CODE HERE
 for i in waypoints:
