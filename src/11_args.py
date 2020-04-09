@@ -20,11 +20,10 @@ def f2(*args):
     for num in args:
         if isinstance(num,int):
             z += num
-            return z
         elif isinstance(num,list):
             z+= sum(num)
-            return z
-    
+    return z 
+
 
 print(f2(1))                    # Should print 1
 print(f2(1, 3))                 # Should print 4

@@ -60,7 +60,7 @@ y = input('Enter a year to get a calender: ')
 
 
 def get_month(themonth=0, theyear=0):
-  if theyear == 0 and themonth == 0:
+  if theyear == None and themonth == None:
     x = datetime.now()
     print(calendar.month(x.year, x.month))
   elif theyear == 0 and themonth != 0:

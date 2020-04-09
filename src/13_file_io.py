@@ -22,5 +22,7 @@ print(read_data)
 # YOUR CODE HERE
 
 f = open('bar.txt', 'w')
-f.write("Guard 2: It could be carried by an African swallow! Guard 1: Oh yeah. An African swallow, maybe -- but not a European swallow, that's my point. Guard 2: Oh yeah, I agree with that.") 
+f.write("""Guard 2: It could be carried by an African swallow! 
+Guard 1: Oh yeah. An African swallow, maybe -- but not a European swallow, that's my point. 
+Guard 2: Oh yeah, I agree with that.""") 
 f.close
